@@ -11,9 +11,7 @@ app.use(express.static('public'))
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(methodOverride('_method'))
 
-app.get('/', (req, res) => {
-  res.send('hello')
-})
+app.use('/', require('./routes/index'))
 
 app.listen(3000, () => {
   console.log(`Express is listening on http://localhost:3000`)
