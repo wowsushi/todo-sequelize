@@ -45,7 +45,7 @@ db connected!
 + 支援Facebook登錄
 
 ## Demo
-![sample1](https://github.com/wowsushi/expense-tracker/blob/master/public/imgs/sample1.png?raw=true)
+![sample1](https://github.com/wowsushi/todo-sequelize/blob/master/public/imgs/sample1.png?raw=true)
 
 
 ## 作者
